@@ -1,0 +1,12 @@
+﻿@using _06_Custom_Helpers.Helpers
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @StringHelpers.CapitalizeWord("merhaba string yardımcı methodlar")
+    <br />
+    @StringHelpers.WordsLength("Erkan Türk");
+    <br />
+    @ViewBag.Message
+</div>
