@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Services</h1>
+    <h2>Transient</h2>
+    <p>İlk değer:@ViewBag.TransientValue1</p>
+    <p>İkinci değer:@ViewBag.TransientValue2</p>
+   <p><strong>Açıklama:</strong>Transient Her İstekde Bize Farklı Değerler Dönderir</p>
+    <p>İlk değer:@ViewBag.ScopedValue1</p>
+    <p>İkinci değer:@ViewBag.ScopedValue2</p>
+    <p><strong>Scoped:</strong>Scoped aynı istek üzerinde aynı değeri dönderir istek değişirse cevap değişir</p>
+    <p>İlk değer:@ViewBag.SingletonValue1</p>
+    <p>İkinci değer:@ViewBag.SingletonValue1</p>
+    <p><strong>Açıklama:</strong>Singleton Uygulama boyunca bize aynı istek uzerinden cevap verir taki yapı sonlandırılana kadar.</p>
+</div>

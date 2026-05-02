@@ -8,4 +8,8 @@
   <Project Path="07_View_Layout_PartialView/07_View_Layout_PartialView.csproj" Id="1f3f0e9c-886e-42c8-86d8-eec0b16c9bf1" />
   <Project Path="08_Render_Section_Nested/08_Render_Section_Nested.csproj" Id="16eb9787-5a90-4453-8024-17b607eba14d" />
   <Project Path="09_ModelBinding/09_ModelBinding.csproj" Id="43f1660a-8f81-4a16-8780-e2d6081fe081" />
+  <Project Path="10_FluentValidation/10_FluentValidation.csproj" Id="7bedfbb2-b815-44d8-b4a7-856dd8e01490" />
+  <Project Path="11_AutoMapper/11_AutoMapper.csproj" Id="281ecb5c-c23b-4bf6-b5c7-42a7e664dc90" />
+  <Project Path="12_Dependency_Injection/12_Dependency_Injection.csproj" Id="e6e083c2-9d89-4c3e-a5af-e0144bf4c297" />
+  <Project Path="13_StateManagement/13_StateManagement.csproj" Id="1a3bb594-cce3-468b-9324-367f3235c027" />
 </Solution>
