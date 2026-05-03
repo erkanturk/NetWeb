@@ -12,4 +12,7 @@
   <Project Path="11_AutoMapper/11_AutoMapper.csproj" Id="281ecb5c-c23b-4bf6-b5c7-42a7e664dc90" />
   <Project Path="12_Dependency_Injection/12_Dependency_Injection.csproj" Id="e6e083c2-9d89-4c3e-a5af-e0144bf4c297" />
   <Project Path="13_StateManagement/13_StateManagement.csproj" Id="1a3bb594-cce3-468b-9324-367f3235c027" />
+  <Project Path="14_Middlewares/14_Middlewares.csproj" Id="14638098-6fab-455d-8c30-7c0ab2f6a379" />
+  <Project Path="15_Filter_Operation/15_Filter_Operation.csproj" Id="080c95a3-43b3-4278-bb15-e70086017d81" />
+  <Project Path="16_Web_Api/16_Web_Api.csproj" Id="4cde1174-d4fd-40be-a211-ef67a0254b92" />
 </Solution>
