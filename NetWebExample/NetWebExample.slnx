@@ -15,4 +15,5 @@
   <Project Path="14_Middlewares/14_Middlewares.csproj" Id="14638098-6fab-455d-8c30-7c0ab2f6a379" />
   <Project Path="15_Filter_Operation/15_Filter_Operation.csproj" Id="080c95a3-43b3-4278-bb15-e70086017d81" />
   <Project Path="16_Web_Api/16_Web_Api.csproj" Id="4cde1174-d4fd-40be-a211-ef67a0254b92" />
+  <Project Path="17_Ado.Net/17_Ado.Net.csproj" Id="f7b0624b-5238-49a3-86fb-04aabc1cc207" />
 </Solution>

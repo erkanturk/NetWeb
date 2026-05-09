@@ -1,0 +1,23 @@
+﻿@model List<Students>
+<h2>Öğrenci listesi</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ogr in Model)
+        {
+            <tr>
+                <th>@ogr.Id</th>
+                <th>@ogr.FirstName</th>
+                <th>@ogr.LastName</th>
+                <th>@ogr.Age</th>
+            </tr>
+        }
+    </tbody>
+</table>
