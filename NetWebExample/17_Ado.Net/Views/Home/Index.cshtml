@@ -23,4 +23,33 @@
             <button type="submit" class="btn btn-primary" >AddData Secure</button>
         </div>
  </form>
+ <hr />
+ <form method="post" asp-controller="Home" asp-action="UpdateDataSecure" class="mb-3">
+     <div class="mb-2">
+         <input type="number" name="Id" placeholder="Student Number" class="form-control" required />
+     </div>
+        <div class="mb-2">
+            <input type="text" name="FirstName" placeholder="First Name" class="form-control" required />
+        </div>
+        <div class="mb-2">
+            <input type="text" name="LastName" placeholder="Last Name" class="form-control" required />
+        </div>
+        <div class="mb-2">
+            <input type="number" name="Age" placeholder="Age" class="form-control" required />
+        </div>
+        <div class="mb-2">
+            <button type="submit" class="btn btn-warning">Update Data Secure By Id</button>
+        </div>
+ </form>
+
+    <form method="post" asp-controller="Home" asp-action="DeleteDataSecure" class="mb-3">
+        <div class="mb-2">
+            <input type="number" name="Id" placeholder="Student Number" class="form-control" required />
+        </div>
+        <div class="mb-2">
+            <button type="submit" class="btn btn-warning">Delete Student By Id</button>
+        </div>
+    </form>
+    <a href="Home/GetData" class="btn btn-info me-2">Get Students</a>
+    <a href="Home/GetDataCount" class="btn btn-info me-2">Get Students count</a>
 </div>

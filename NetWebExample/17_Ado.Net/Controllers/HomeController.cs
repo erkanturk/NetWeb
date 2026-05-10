@@ -11,7 +11,7 @@ namespace _17_Ado.Net.Controllers
         private readonly IDbService _dbService;
         public HomeController(IDbService dbService)
         {
-            _dbService= dbService;
+            _dbService = dbService;
         }
         public IActionResult Index()
         {
@@ -50,6 +50,33 @@ namespace _17_Ado.Net.Controllers
             string query = "Select Count(*) from Students";
             var count = _dbService.ExecuteScalar(query);
             return View(count);
+        }
+        [HttpPost]
+        public IActionResult DeleteDataSecure([FromForm] int id)
+        {
+            string query = "Delete from students where Id=@id";
+            SqlParameter[] parameters =
+            {
+
+                new SqlParameter("@id",id)
+            };
+            _dbService.ExecuteNonQuery(query, parameters);
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult UpdateDataSecure([FromForm] Students model)
+        {
+            string query = "Update Students Set FirstName=@p0,LastName=@p1,Age=@p2 where Id=@p3";
+            SqlParameter[] sqlParameter =
+            {
+                new SqlParameter("@p0",model.FirstName),
+                new SqlParameter("@p1",model.LastName),
+                new SqlParameter("@p2",model.Age),
+                new SqlParameter("@p3",model.Id)
+
+            };
+            _dbService.ExecuteNonQuery (query, sqlParameter);
+            return RedirectToAction("Index");
         }
 
 
