@@ -17,4 +17,5 @@
   <Project Path="16_Web_Api/16_Web_Api.csproj" Id="4cde1174-d4fd-40be-a211-ef67a0254b92" />
   <Project Path="17_Ado.Net/17_Ado.Net.csproj" Id="f7b0624b-5238-49a3-86fb-04aabc1cc207" />
   <Project Path="18_Dapper/18_Dapper.csproj" Id="ddf08187-eb38-4475-affd-ccf185525adf" />
+  <Project Path="19_RestorantUygulamasi/19_RestorantUygulamasi.csproj" Id="fe55bfea-5858-4072-b545-17981801bfe7" />
 </Solution>
